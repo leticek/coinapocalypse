@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="statisticsPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" styleClass="other-background" stylesheets="@../css/styling.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="core.menuControllers.StatisticsMenuController">
+   <children>
+      <Button fx:id="button" layoutX="44.0" layoutY="42.0" mnemonicParsing="false" onAction="#backPressed" prefHeight="30.0" prefWidth="220.0" stylesheets="@../css/styling.css" text="Back" />
+      <Text layoutX="355.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STATISTICS" wrappingWidth="190.13671875">
+         <font>
+            <Font name="Segoe UI Emoji" size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="128.0" layoutY="427.0" strokeType="OUTSIDE" strokeWidth="0.0" text="High Score:">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="87.0" layoutY="462.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lifetime fairies:">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text fx:id="highScore" layoutX="262.0" layoutY="427.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="92.015625">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text fx:id="lifetimeFairies" layoutX="262.0" layoutY="462.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="92.015625">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="510.0" layoutY="459.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account balance:">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="510.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fairies spawning:">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="577.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fairy value:">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="553.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player speed:">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text fx:id="accountBalance" layoutX="707.0" layoutY="459.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="92.015625">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text fx:id="fairiesSpawning" layoutX="706.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="92.015625">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text fx:id="fairyValue" layoutX="707.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="92.015625">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text fx:id="playerSpeed" layoutX="707.0" layoutY="352.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="92.015625">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="92.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lifetime score:">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text fx:id="lifetimeScore" layoutX="264.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="92.015625">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

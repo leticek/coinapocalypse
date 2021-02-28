@@ -1,0 +1,31 @@
+.main-menu-background{
+     -fx-background-image: url("../images/backgounds/coin_apo_main_menu.png");
+}
+
+
+.other-background{
+     -fx-background-image: url("../images/backgounds/backgroundColorForest.png");
+
+}
+
+.rootPane{
+    -fx-background-image: url("../images/backgounds/backgroundColorForest.png");
+}
+
+.button { 
+    -fx-background-image: url('../images/controls/button_yellow_0.png');
+    -fx-background-size: 220px 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+
+.button:pressed {
+    -fx-background-image: url('../images/controls/yellow_button_1.png');
+    -fx-background-size: 220px 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-border-radius: 5 5 5 5;
+    -fx-background-radius: 5 5 5 5;
+}

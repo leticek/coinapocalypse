@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" styleClass="rootPane" stylesheets="@../css/styling.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="core.menuControllers.UpgradeMenuController">
+   <children>
+      <Button fx:id="backButton" layoutX="54.0" layoutY="48.0" mnemonicParsing="false" onAction="#backPressed" prefHeight="30.0" prefWidth="72.0" text="Back" />
+      <Button fx:id="upgradeSpeed" layoutX="90.0" layoutY="454.0" mnemonicParsing="false" onAction="#upgradeSpeedPressed" prefHeight="31.0" prefWidth="217.0" text="Upgrade" />
+      <Button fx:id="upgradeFairyValue" layoutX="321.0" layoutY="454.0" mnemonicParsing="false" onAction="#upgradeFairyValuePressed" prefHeight="31.0" prefWidth="217.0" text="Upgrade" />
+      <Button fx:id="upgradeNumOfFairies" layoutX="556.0" layoutY="454.0" mnemonicParsing="false" onAction="#upgradeNumOfFairies" prefHeight="31.0" prefWidth="217.0" text="Upgrade" />
+      <Text fx:id="priceSpeed" layoutX="204.0" layoutY="447.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font name="Segoe UI Emoji" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="nextLevelSpeed" layoutX="204.0" layoutY="423.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font name="Segoe UI Emoji" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="actualSpeed" layoutX="204.0" layoutY="399.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font name="Segoe UI Emoji" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="accountBalance" layoutX="753.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font name="Segoe UI Emoji" size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="priceFairyValue" layoutX="435.0" layoutY="447.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font name="Segoe UI Emoji" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="nextLevelFairyValue" layoutX="435.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font name="Segoe UI Emoji" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="actualFairyValue" layoutX="435.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font name="Segoe UI Emoji" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="priceMoreFairies" layoutX="670.0" layoutY="447.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font name="Segoe UI Emoji" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="nextNumOfFairies" layoutX="670.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font name="Segoe UI Emoji" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="actualNumOfFairies" layoutX="670.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font name="Segoe UI Emoji" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="382.0" layoutY="448.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:">
+         <font>
+            <Font name="Segoe UI Emoji" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="151.0" layoutY="448.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:">
+         <font>
+            <Font name="Segoe UI Emoji" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="175.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Speed">
+         <font>
+            <Font name="Segoe UI Black" size="23.0" />
+         </font>
+      </Text>
+      <Text layoutX="140.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Actual:">
+         <font>
+            <Font name="Segoe UI Emoji" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="108.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Next level:">
+         <font>
+            <Font name="Segoe UI Emoji" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="534.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current balance:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="366.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fairy Value">
+         <font>
+            <Font name="Segoe UI Black" size="23.0" />
+         </font>
+      </Text>
+      <Text layoutX="371.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Actual:">
+         <font>
+            <Font name="Segoe UI Emoji" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="339.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Next level:">
+         <font>
+            <Font name="Segoe UI Emoji" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="601.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="More Fairies">
+         <font>
+            <Font name="Segoe UI Black" size="23.0" />
+         </font>
+      </Text>
+      <Text layoutX="606.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Actual:">
+         <font>
+            <Font name="Segoe UI Emoji" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="574.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Next level:">
+         <font>
+            <Font name="Segoe UI Emoji" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="617.0" layoutY="448.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:">
+         <font>
+            <Font name="Segoe UI Emoji" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
